@@ -54,7 +54,6 @@ public class Background {
         options.inScaled = false;
         background = BitmapFactory.decodeResource(res, R.drawable.paralax, options);
 
-        // git test
         background = Bitmap.createScaledBitmap(background, (int)(background.getWidth() * scale.x),
                 (int)(background.getHeight() * scale.y), false);
     }
