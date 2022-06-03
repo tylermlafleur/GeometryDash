@@ -49,7 +49,6 @@ public class Background {
         scaleBackground(scale);
     }
 
-    //git test
     public void scaleBackground(PointF scale) {
         options = new BitmapFactory.Options();
         options.inScaled = false;
