@@ -1,4 +1,4 @@
-package com.example.geometrydash;
+package com.example.geometrydash.GameObjects;
 
 import android.graphics.Color;
 import android.graphics.Rect;
