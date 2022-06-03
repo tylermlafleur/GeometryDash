@@ -43,6 +43,7 @@ public class Background {
         this.res = res;
         this.x = x;
 
+        //git test
         options = new BitmapFactory.Options();
         options.inScaled = false;
         background = BitmapFactory.decodeResource(res, R.drawable.paralax, options);
